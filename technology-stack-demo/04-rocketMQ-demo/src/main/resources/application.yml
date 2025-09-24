@@ -1,0 +1,28 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: 04-rocketMQ-demo
+rocketmq:
+  name-server: 192.168.1.18:9876
+  producer:
+    group: demo-producer-group
+    send-message-timeout: 3000
+    retry-times-when-send-failed: 2
+    max-message-size: 4194304
+    # 压缩消息阈值，超过4K压缩
+    compress-message-body-threshold: 4096
+    # 是否在内部发送失败时重试另一个broker
+#    etry-another-broker-when-not-store-ok: false
+
+  consumer:
+    group: demo-consumer-group
+#    consumer-timeout: 15000
+    # 消费线程数
+#    consumer-thread-min: 5
+#    consumer-thread-max: 32
+
+logging:
+  config: classpath:log4j2.xml
+  level:
+    org.apache.rocketmq: INFO

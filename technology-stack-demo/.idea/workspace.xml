@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a445ab1-af76-4707-9c95-a2923a39800b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\workspace\repository\mavenRep" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.9.7\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32y5vTvsyaWTgxec5FvoCD9AxdY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.KafkaIntegrationTest.executor": "Run",
+    "JUnit.KafkaIntegrationTest.testSendObjectMessage.executor": "Run",
+    "JUnit.KafkaTest.test.executor": "Run",
+    "JUnit.RabbitMQTest.test.executor": "Run",
+    "JUnit.RedisTest.executor": "Run",
+    "JUnit.RedisTest.redisTest.executor": "Run",
+    "JUnit.RedisTest.test.executor": "Run",
+    "JUnit.UserControllerTest.executor": "Run",
+    "JUnit.UserControllerTest.testCreateUser_Success.executor": "Run",
+    "JUnit.UserRepositoryTest.executor": "Run",
+    "JUnit.UserRepositoryTest.testFindByEmail.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
+    "JUnit.UserServiceTest.testSaveUser_Success.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.02-kafka-demo [clean].executor": "Run",
+    "Maven.02-kafka-demo [package].executor": "Run",
+    "Maven.common-config [clean].executor": "Run",
+    "Maven.common-config [package].executor": "Run",
+    "Maven.technology-stack-demo [clean].executor": "Run",
+    "Maven.technology-stack-demo [install].executor": "Run",
+    "Maven.technology-stack-demo [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.KafkaDemoApplication.executor": "Run",
+    "Spring Boot.SpringBootRabbitMQDemoApplication.executor": "Run",
+    "Spring Boot.SpringBootRocketMQApplication.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/DevRep/github/item-demo/technology-stack-demo/06-test-demo/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.36345646",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\DevRep\github\item-demo\technology-stack-demo\06-test-demo\src\main\resources" />
+      <recent name="D:\workspace\DevRep\github\technology-stack-demo\05-seata-demo\src\main\resources" />
+      <recent name="D:\workspace\DevRep\github\technology-stack-demo\04-rocketMQ-demo\src\main\resources" />
+      <recent name="D:\workspace\DevRep\github\technology-stack-demo\03-rabbitMQ-demo\src\main\resources" />
+      <recent name="D:\workspace\DevRep\github\technology-stack-demo\02-kafka-demo\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\DevRep\github\technology-stack-demo\common\src\main" />
+      <recent name="D:\workspace\DevRep\github\technology-stack-demo\src\main\resources" />
+      <recent name="D:\workspace\DevRep\github\technology-stack-demo\01-redis-demo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserControllerTest">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpy" />
+      <option name="MAIN_CLASS_NAME" value="com.lpy.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.testCreateUser_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpy" />
+      <option name="MAIN_CLASS_NAME" value="com.lpy.UserControllerTest" />
+      <option name="METHOD_NAME" value="testCreateUser_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpy" />
+      <option name="MAIN_CLASS_NAME" value="com.lpy.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.testFindByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpy" />
+      <option name="MAIN_CLASS_NAME" value="com.lpy.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="testFindByEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpy" />
+      <option name="MAIN_CLASS_NAME" value="com.lpy.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.testCreateUser_Success" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserRepositoryTest" />
+        <item itemvalue="JUnit.UserRepositoryTest.testFindByEmail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a445ab1-af76-4707-9c95-a2923a39800b" name="Changes" comment="" />
+      <created>1758380203972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758380203972</updated>
+      <workItem from="1758380205304" duration="362000" />
+      <workItem from="1758418335753" duration="915000" />
+      <workItem from="1758419537551" duration="28762000" />
+      <workItem from="1758498269132" duration="19750000" />
+      <workItem from="1758550908666" duration="18000" />
+      <workItem from="1758592909277" duration="21003000" />
+      <workItem from="1758676741472" duration="35000" />
+      <workItem from="1758676841301" duration="13792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka_2.13" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+</project>

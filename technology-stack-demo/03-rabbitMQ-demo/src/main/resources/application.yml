@@ -1,0 +1,42 @@
+logging:
+  config: classpath:log4j2.xml
+  level:
+    com.lpy: INFO
+    org.springframework.amqp: INFO
+
+server:
+  port: 8000
+spring:
+  rabbitmq:
+    host: 192.168.1.18
+    port: 5672
+    username: admin
+    password: password
+    virtual-host: /
+    # 发布超时时间
+    connection-timeout: 15000
+    # 发布确认
+    publisher-confirm-type: correlated
+    # 发布退回
+    publisher-returns: true
+    # 消费者配置
+    listener:
+      simple:
+        # 手动ack
+        acknowledge-mode: manual
+        # 消费者最小数量
+        concurrency: 1
+        # 消费者最大数量
+        max-concurrency: 1
+        # 限制消费者每次只处理一个消息
+        prefetch: 1
+        # 启动时是否默认启动容器
+        auto-startup: true
+        # 被拒绝的消息是否重新入队
+        default-requeue-rejected: true
+    # 缓存配置
+#    cache:
+#      connection:
+#        mode: channel
+#        channel:
+#          size: 10

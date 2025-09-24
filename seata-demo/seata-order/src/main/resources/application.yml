@@ -1,0 +1,42 @@
+logging:
+  config: classpath:log4j2.xml
+  level:
+    com.alibaba.nacos: INFO
+    io.seata: INFO
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: seata-order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.18:3306/seata_order?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: password
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.18:8848
+
+seata:
+  enabled: true
+  application-id: ${spring.application.name}
+  tx-service-group: my_test_tx_group
+  enable-auto-data-source-proxy: true
+  data-source-proxy-mode: AT
+  config:
+    type: nacos
+    nacos:
+      server-addr: 192.168.1.18:8848
+      group: SEATA_GROUP
+      namespace: ""
+      data-id: seataServer.properties
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 192.168.1.18:8848
+      group: SEATA_GROUP
+      namespace: ""

@@ -1,0 +1,8 @@
+logging:
+  config: classpath:log4j2.xml
+spring:
+  redis:
+    database: 0
+    host: 192.168.1.18
+    port: 6379
+#    password: imooc
