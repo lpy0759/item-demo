@@ -15,6 +15,7 @@
     <module>03-rabbitMQ-demo</module>
     <module>04-rocketMQ-demo</module>
     <module>06-test-demo</module>
+    <module>05-elasticsearch-demo</module>
   </modules>
 
   <properties>

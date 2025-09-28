@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: elasticsearch-demo
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      rest:
+        uris: http://localhost:9200
+        connection-timeout: 5s
+        read-timeout: 30s
+
+server:
+  port: 8006
+
+logging:
+  level:
+    org.springframework.data.elasticsearch: DEBUG
+    org.elasticsearch.client: DEBUG
+  config: classpath:log4j2.xml

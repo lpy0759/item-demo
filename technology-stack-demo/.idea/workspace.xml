@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a445ab1-af76-4707-9c95-a2923a39800b" name="Changes" comment="" />
+    <list default="true" id="4a445ab1-af76-4707-9c95-a2923a39800b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-elasticsearch-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-elasticsearch-demo/src/test/java/com/lpy/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seata-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../seata-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +21,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -33,6 +44,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="32y5vTvsyaWTgxec5FvoCD9AxdY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -67,11 +81,15 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.App.executor": "Run",
+    "Spring Boot.ElasticsearchDemoApplication.executor": "Run",
     "Spring Boot.KafkaDemoApplication.executor": "Run",
     "Spring Boot.SpringBootRabbitMQDemoApplication.executor": "Run",
     "Spring Boot.SpringBootRocketMQApplication.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/DevRep/github/item-demo/technology-stack-demo/06-test-demo/src/main/resources",
+    "last_opened_file_path": "D:/workspace/DevRep/github/item-demo/technology-stack-demo/05-elasticsearch-demo/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,17 +99,17 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.36345646",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\DevRep\github\item-demo\technology-stack-demo\05-elasticsearch-demo\src\main\resources" />
       <recent name="D:\workspace\DevRep\github\item-demo\technology-stack-demo\06-test-demo\src\main\resources" />
       <recent name="D:\workspace\DevRep\github\technology-stack-demo\05-seata-demo\src\main\resources" />
       <recent name="D:\workspace\DevRep\github\technology-stack-demo\04-rocketMQ-demo\src\main\resources" />
       <recent name="D:\workspace\DevRep\github\technology-stack-demo\03-rabbitMQ-demo\src\main\resources" />
-      <recent name="D:\workspace\DevRep\github\technology-stack-demo\02-kafka-demo\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\DevRep\github\technology-stack-demo\common\src\main" />
@@ -99,7 +117,7 @@
       <recent name="D:\workspace\DevRep\github\technology-stack-demo\01-redis-demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest">
+  <component name="RunManager" selected="Spring Boot.ElasticsearchDemoApplication">
     <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="06-test-demo" />
       <extension name="coverage">
@@ -131,37 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="06-test-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lpy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lpy" />
-      <option name="MAIN_CLASS_NAME" value="com.lpy.UserRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.testFindByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="06-test-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lpy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lpy" />
-      <option name="MAIN_CLASS_NAME" value="com.lpy.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindByEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="06-test-demo" />
       <extension name="coverage">
@@ -177,13 +164,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="05-elasticsearch-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lpy.App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="05-elasticsearch-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lpy.ElasticsearchDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ElasticsearchDemoApplication" />
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="JUnit.UserControllerTest.testCreateUser_Success" />
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserRepositoryTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.testFindByEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +224,7 @@
       <workItem from="1758592909277" duration="21003000" />
       <workItem from="1758676741472" duration="35000" />
       <workItem from="1758676841301" duration="13792000" />
+      <workItem from="1759024744886" duration="9538000" />
     </task>
     <servers />
   </component>
